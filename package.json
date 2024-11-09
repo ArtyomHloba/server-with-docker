@@ -1,0 +1,19 @@
+{
+  "name": "server-with-docker",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon --legacy-watch server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
